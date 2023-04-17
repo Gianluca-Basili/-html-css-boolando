@@ -11,6 +11,8 @@
     color: rgba(255,232,216,255);
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    position: fixed;
+    z-index: 100;
 }
     
     
@@ -82,6 +84,7 @@ h3{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }  
     
    
@@ -90,13 +93,192 @@ h3{
 
 
 .col-33{
-    width:calc(100%/3);
-    background-color: red;
-    margin: 10px 30px;
-    height: 300px;
+    width:calc(100%/3 - 60px);
+    margin-right: 20px;
+    margin-top: 100px
     
 }
-   
+    
+
+.full-image{
+    width: 100%;
+}
+    
+h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.price{
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.deleted{
+    text-decoration: line-through;
+    color: black;
+    display: inline-block;
+}
 
 
+
+.square-red{
+    background-color: red;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    width: 65px;
    
+}
+
+.square-green{
+    background-color: green;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    width:120px;
+    bottom: 100px;
+   
+}
+
+.position-relative{
+    position: relative;
+}
+
+.offer{
+    position: absolute;
+    bottom: 100px;
+    
+}
+
+.overlape{
+    margin-left: 70px;
+}
+
+.first-image{
+    display: block;
+}
+
+.second-image{
+    display: none;
+}
+
+.content-card:hover .second-image{
+    display: block;
+
+}
+
+.content-card:hover .first-image{
+    display: none;
+
+}
+
+
+
+.save{
+    background-color: white;
+    
+    padding: 10px;
+    width: 10px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+
+/*fine main*/
+
+/*inizio footer*/
+
+.container-footer{
+    background-color: rgba(26,26,26,255);
+    width: 100%;
+    
+}
+
+
+
+.row-footer{
+    display: flex;
+}
+.content-footer{
+    margin-left: 240px;
+}
+h5{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.col-footer{
+   
+    padding: 10px;
+    width: 50%;
+}
+
+.col2-footer{
+   
+    display: flex;
+    justify-content: flex-end;
+    width: 36%;
+    padding: 10px;
+}
+
+
+.informazioni{
+    margin-right: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.informativa{
+    margin-right: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+
+}
+
+.diritti{
+    margin-right: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.twitter{
+    padding: 2px;
+    background-color: white;
+    height: 5px;
+    margin-right: 2px;
+}
+
+.facebook{
+   
+    padding: 2px;
+    background-color: white;
+}
+
+.instagram{
+    padding: 2px;
+    background-color: white;
+}
+
+.pinterest{
+    padding: 2px;
+    background-color: white;
+}
+
+.youtube{
+    padding: 2px;
+    background-color: white;
+}
